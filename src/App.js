@@ -1,3 +1,5 @@
+import Header from './Header'
+
 /*
  * Now it would be great to have our title
  * and subtitle in a header component.
@@ -9,9 +11,5 @@
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello Hacker!</h1>
-      <p>Let's learn styled-components together!</p>
-    </div>
-  )
+    <Header /> )
 }
